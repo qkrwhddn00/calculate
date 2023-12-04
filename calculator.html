@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcultaor.css" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="calculation">
+            <div class="display">
+                <input id="text_input" type="text"></input>
+                <input id="result" type="text"></input>
+            </div>
+            <div class='buttons'>
+                <button onclick="AC()" class="calculate">AC</button>
+                <button onclick="DE()" class="calculate">DE</button>
+                <button onclick="add('.')"class="calculate">.</button>
+                <button onclick="add('/')"class="calculate">/</button>
+            </div>
+            <div class='buttons'>
+                <button onclick="add(7)" class="number">7</button>
+                <button onclick="add(8)" class="number">8</button>
+                <button onclick="add(9)" class="number">9</button>
+                <button onclick="add('*')"class="calculate">*</button>
+            </div>
+            <div class='buttons'>
+                <button onclick="add(4)" class="number">4</button>
+                <button onclick="add(5)" class="number">5</button>
+                <button onclick="add(6)" class="number">6</button>
+                <button onclick="add('-')"class="calculate">-</button>
+            </div>
+            <div class='buttons'>
+                <button onclick="add(1)" class="number">1</button>
+                <button onclick="add(2)" class="number">2</button>
+                <button onclick="add(3)" class="number">3</button>
+                <button onclick="add('+')" class="calculate">+</button>
+            </div>
+            <div class='buttons'>
+                <button  onclick="add('00')" class="number">00</button>
+                <button onclick="add(0)" class="number">0</button>
+                <button onclick="calculate()" class="last_calculate">=</button>
+            </div>
+        </div>    
+    </div>
+    <script src="calculator.js"></script>
+
+    
+</body>
+</html>

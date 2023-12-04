@@ -1,0 +1,35 @@
+* {
+    font-size: 20px;
+}
+.wrap {
+    margin: 0;
+    padding: 0;
+    background-color: indianred;
+}
+.calculation {
+    margin: 50px 50px;
+    background-color: rgb(78, 78, 78);
+    width: 400px;
+}
+#text_input {
+    width: 380px;
+    height: 60px;
+    margin: 20px 5px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 80px;
+    width: auto;
+}
+.number {
+    margin: 1px 1px;
+}
+.calculate {
+    margin: 1px 1px;
+}
+.last_calculate {
+    grid-column: 3/5;
+    margin: 1px 1px;
+}
+
